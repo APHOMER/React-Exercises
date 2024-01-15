@@ -28,6 +28,7 @@ function QuoteFetcher() {
 
     } 
 
+    
     return (
         <div>
             <button onClick={fetchQuote}>Get Quote Using Handler</button>
