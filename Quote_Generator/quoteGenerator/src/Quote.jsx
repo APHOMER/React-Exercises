@@ -28,7 +28,7 @@ function QuoteFetcher() {
 
     } 
 
-    
+
     return (
         <div>
             <button onClick={fetchQuote}>Get Quote Using Handler</button>
@@ -39,4 +39,5 @@ function QuoteFetcher() {
 }
 
 export default QuoteFetcher;
+
 
