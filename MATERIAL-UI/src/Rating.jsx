@@ -2,6 +2,7 @@ import Rating from '@mui/material/Rating';
 import { useState } from 'react';
 
 export default function RatingComponent(){
+    
     const [score, setScore] = useState(3);
 
     return (
