@@ -5,11 +5,13 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import AlarmIcon from '@mui/icons-material/Alarm';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import RatingComponent from './Rating';
+import FormDemo from './FormDemo';
 
 function App() {
 
   return (
     <>
+      <FormDemo /> <br></br>
       <RatingComponent /> <br></br>
 
       <Button color='success' variant="contained" onClick={() => alert("Hi")}>Contained</Button>
