@@ -8,7 +8,6 @@ import RatingComponent from './Rating';
 import FormDemo from './FormDemo';
 
 function App() {
-
   return (
     <>
       <FormDemo /> <br></br>
@@ -35,4 +34,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
