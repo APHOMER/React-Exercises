@@ -11,12 +11,12 @@ export default function FormDemo() {
     const updateName = (e) => {
         setName(e.target.value);
     }
-    // const updateVolume = (e) => {
-    //     setVolume(e.target.value)
-    // }
-    const updateVolume = (e, newVal) => {
-        setVolume(newVal);
+    const updateVolume = (e) => {
+        setVolume(e.target.value)
     }
+    // const updateVolume = (e, newVal) => {
+    //     setVolume(newVal);
+    // }
 
     return (
         <div>
