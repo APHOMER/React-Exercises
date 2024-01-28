@@ -4,7 +4,6 @@ import { useState } from 'react';
 export default function RatingComponent(){
     
     const [score, setScore] = useState(3);
-
     return (
         <div>
             <h1>{score <= 0 ? "There is no Score" : `The current Score is Rated ${score}`}</h1>
