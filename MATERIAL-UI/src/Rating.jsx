@@ -14,6 +14,7 @@ export default function RatingComponent(){
                 onChange={(event, newValue) => {
                     setScore(newValue);
                 }}
+                
             />
         </div>
         
